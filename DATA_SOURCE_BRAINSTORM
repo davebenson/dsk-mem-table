@@ -1,0 +1,21 @@
+- devise protocol
+  CREATE table_id
+  GET table_id key last_set_line
+  SET table_id key last_set_line
+  REMOVE table_id key last_set_line
+  DESTROY table_id
+
+- instrument glib's hash-table
+  - start up mozilla a few times
+    - use a new account for security!
+
+Data sets:
+- mozilla starting up, browsing the web (or something similar)
+- indexing a few books (eg a bunch of text files from project gutenberg)
+- json processing
+
+- instrument our own implementation
+
+implementations:
+- glib's hash table
+- our table
